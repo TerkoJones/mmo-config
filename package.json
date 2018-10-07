@@ -1,0 +1,8 @@
+{
+  "name": "mmo",
+  "version": "1.0.0",
+  "description": "Archivo de configuraciones",
+  "main": "index.js",
+  "author": "Terko Jonex",
+  "license": "MIT"
+}
