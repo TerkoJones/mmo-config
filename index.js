@@ -14,6 +14,8 @@ module.exports = config;
         env = config.env = cf.env || process.env.NODE_ENV || 'development',
         envs = cf.envs || {};
 
+    process.env.NODE_ENV=env;
+    
     delete cf.envs;
     delete cf.env;
     
